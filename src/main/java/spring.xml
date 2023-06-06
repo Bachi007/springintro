@@ -7,7 +7,27 @@
     http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
 
+	<bean id="ca2" class="com.springintro.car">
+		<property name="id" value="103"></property>
+		<property name="name" value="Tata Tiago"></property>
+	</bean>
 
-	<bean id="vehicle" class="com.springintro.car"></bean>
+
+	<bean id="ca" class="com.springintro.car">
+		<property name="id" value="101"></property>
+		<property name="name" value="MG Hector"></property>
+	</bean>
+	
+	
+	
+	
+
+	<bean id="bi" class="com.springintro.bike">
+		<property name="id" value="102"></property>
+		<property name="name" value="BMW 1250 GSA"></property>
+	</bean>
+
+
+
 
 </beans>

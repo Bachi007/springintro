@@ -13,9 +13,13 @@ public class App
     {
     	
     	ApplicationContext bf=new ClassPathXmlApplicationContext("spring.xml");
+//    	
+//    		
+    		car c=(car)bf.getBean("ca2");
+    	System.out.println(c.getId()+" "+c.getName());
+    
+        	
     	
-    		//bike b1=new bike();
-    		vehicle b1=(vehicle) bf.getBean("vehicle");
-    		b1.drive();
+    	
     }
 }
